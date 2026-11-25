@@ -1,6 +1,6 @@
 # Nutrition
 
-The reference holds 7,140 food profiles with the English names published by the Max Rubner-Institut and 138 source components. Curated type annotations cover 352 BLS IDs, including 289 ingredients. The remaining food types are unresolved in this toolkit. Use `find --kind ingredient` for the curated ingredient set or omit the filter for expanded search. Check the food's state, such as raw, dried, cooked or fortified, before using a match. [Source and attribution](../health_toolkit/data/ATTRIBUTION.md)
+Use `find --kind ingredient` for the curated ingredients or omit the filter to search all BLS profiles. Check the food's state, such as raw, dried, cooked or fortified, before using a match. The [food data guide](food-data.md) documents the catalog layers and source fields.
 
 ## Own catalog
 
