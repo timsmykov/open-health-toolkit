@@ -1,0 +1,566 @@
+{
+  "title": "German Nutrient Database (Bundeslebensmittelschlüssel)",
+  "version": "4.0",
+  "publisher": "Max Rubner-Institut",
+  "release_year": 2025,
+  "doi": "https://doi.org/10.25826/Data20251217-134202-0",
+  "download": "https://blsdb.de/download",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "archive_sha256": "12b7a6ba62807ec9b301eb276f897dc85f99b2292311618dec3749a12d984c91",
+  "foods": 7140,
+  "components": {
+    "ENERCJ": {
+      "name": "Energy (kilojoule)",
+      "unit": "kJ"
+    },
+    "ENERCC": {
+      "name": "Energy (kilocalorie)",
+      "unit": "kcal"
+    },
+    "WATER": {
+      "name": "Water",
+      "unit": "g"
+    },
+    "PROT625": {
+      "name": "Protein (Nx6.25)",
+      "unit": "g"
+    },
+    "FAT": {
+      "name": "Fat",
+      "unit": "g"
+    },
+    "CHO": {
+      "name": "Carbohydrate, available",
+      "unit": "g"
+    },
+    "FIBT": {
+      "name": "Fibre, dietary, total",
+      "unit": "g"
+    },
+    "ALC": {
+      "name": "Alcohol (Ethanol)",
+      "unit": "g"
+    },
+    "OA": {
+      "name": "Organic acids, total",
+      "unit": "g"
+    },
+    "ASH": {
+      "name": "Ash",
+      "unit": "g"
+    },
+    "VITA": {
+      "name": "Vitamin A, retinol equivalents (RE)",
+      "unit": "ug"
+    },
+    "VITAA": {
+      "name": "Vitamin A, retinol activity equivalents (RAE)",
+      "unit": "ug"
+    },
+    "RETOL": {
+      "name": "Retinol",
+      "unit": "ug"
+    },
+    "CARTB": {
+      "name": "Beta-carotene",
+      "unit": "ug"
+    },
+    "CAROTPAXB": {
+      "name": "Carotenoids, excluding beta-carotene",
+      "unit": "ug"
+    },
+    "VITD": {
+      "name": "Vitamin D",
+      "unit": "ug"
+    },
+    "CHOCAL": {
+      "name": "Vitamin D3 (cholecalciferol)",
+      "unit": "ug"
+    },
+    "ERGCAL": {
+      "name": "Vitamin D2 (ergocalciferol)",
+      "unit": "ug"
+    },
+    "VITE": {
+      "name": "Vitamin E (alpha-tocopherol)",
+      "unit": "mg"
+    },
+    "TOCPHA": {
+      "name": "Alpha-tocopherol",
+      "unit": "mg"
+    },
+    "TOCPHB": {
+      "name": "Beta-tocopherol",
+      "unit": "mg"
+    },
+    "TOCPHG": {
+      "name": "Gamma-tocopherol",
+      "unit": "mg"
+    },
+    "TOCPHD": {
+      "name": "Delta-tocopherol",
+      "unit": "mg"
+    },
+    "TOCTRA": {
+      "name": "Alpha-tocotrienol",
+      "unit": "mg"
+    },
+    "VITK": {
+      "name": "Vitamin K",
+      "unit": "ug"
+    },
+    "VITK1": {
+      "name": "Vitamin K1 (phylloquinone)",
+      "unit": "ug"
+    },
+    "VITK2": {
+      "name": "Vitamin K2 (menaquinone)",
+      "unit": "ug"
+    },
+    "THIA": {
+      "name": "Vitamin B1 (thiamine)",
+      "unit": "mg"
+    },
+    "RIBF": {
+      "name": "Vitamin B2 (riboflavin)",
+      "unit": "mg"
+    },
+    "NIAEQ": {
+      "name": "Niacin equivalents",
+      "unit": "mg"
+    },
+    "NIA": {
+      "name": "Niacin",
+      "unit": "mg"
+    },
+    "PANTAC": {
+      "name": "Pantothenic acid",
+      "unit": "mg"
+    },
+    "VITB6": {
+      "name": "Vitamin B6",
+      "unit": "ug"
+    },
+    "BIOT": {
+      "name": "Biotin",
+      "unit": "ug"
+    },
+    "FOL": {
+      "name": "Folate equivalent",
+      "unit": "ug"
+    },
+    "FOLFD": {
+      "name": "Folate",
+      "unit": "ug"
+    },
+    "FOLAC": {
+      "name": "Folic acid, synthetic",
+      "unit": "ug"
+    },
+    "VITB12": {
+      "name": "Vitamin B12 (cobalamin)",
+      "unit": "ug"
+    },
+    "VITC": {
+      "name": "Vitamin C",
+      "unit": "mg"
+    },
+    "NACL": {
+      "name": "Salt (sodium chloride)",
+      "unit": "g"
+    },
+    "NA": {
+      "name": "Sodium",
+      "unit": "mg"
+    },
+    "CLD": {
+      "name": "Chloride",
+      "unit": "mg"
+    },
+    "K": {
+      "name": "Potassium",
+      "unit": "mg"
+    },
+    "CA": {
+      "name": "Calcium",
+      "unit": "mg"
+    },
+    "MG": {
+      "name": "Magnesium",
+      "unit": "mg"
+    },
+    "P": {
+      "name": "Phosphorus",
+      "unit": "mg"
+    },
+    "S": {
+      "name": "Sulphur",
+      "unit": "mg"
+    },
+    "FE": {
+      "name": "Iron",
+      "unit": "mg"
+    },
+    "ZN": {
+      "name": "Zinc",
+      "unit": "mg"
+    },
+    "ID": {
+      "name": "Iodide",
+      "unit": "ug"
+    },
+    "CU": {
+      "name": "Copper",
+      "unit": "ug"
+    },
+    "MN": {
+      "name": "Manganese",
+      "unit": "ug"
+    },
+    "FD": {
+      "name": "Fluoride",
+      "unit": "ug"
+    },
+    "CR": {
+      "name": "Chromium",
+      "unit": "ug"
+    },
+    "MO": {
+      "name": "Molybdenum",
+      "unit": "ug"
+    },
+    "ACEAC": {
+      "name": "Acetic acid",
+      "unit": "g"
+    },
+    "CITAC": {
+      "name": "Citric acid",
+      "unit": "g"
+    },
+    "LACAC": {
+      "name": "Lactic acid",
+      "unit": "g"
+    },
+    "MALAC": {
+      "name": "Malic acid",
+      "unit": "g"
+    },
+    "TARAC": {
+      "name": "Tartaric acid",
+      "unit": "g"
+    },
+    "POLYL": {
+      "name": "Polyols, total",
+      "unit": "g"
+    },
+    "MANTL": {
+      "name": "Mannitol",
+      "unit": "g"
+    },
+    "SORTL": {
+      "name": "Sorbitol",
+      "unit": "g"
+    },
+    "XYLTL": {
+      "name": "Xylitol",
+      "unit": "g"
+    },
+    "MNSAC": {
+      "name": "Monosaccharides, total",
+      "unit": "g"
+    },
+    "GLUS": {
+      "name": "Glucose",
+      "unit": "g"
+    },
+    "FRUS": {
+      "name": "Fructose",
+      "unit": "g"
+    },
+    "GALS": {
+      "name": "Galactose",
+      "unit": "g"
+    },
+    "DISAC": {
+      "name": "Disaccharides, total",
+      "unit": "g"
+    },
+    "SUCS": {
+      "name": "Sucrose",
+      "unit": "g"
+    },
+    "MALS": {
+      "name": "Maltose",
+      "unit": "g"
+    },
+    "LACS": {
+      "name": "Lactose",
+      "unit": "g"
+    },
+    "SUGAR": {
+      "name": "Sugars (mono- and disaccharides), total",
+      "unit": "g"
+    },
+    "OLSAC": {
+      "name": "Oligosaccharides, available",
+      "unit": "g"
+    },
+    "STARCH": {
+      "name": "Starch (starch, glycogen, dextrins)",
+      "unit": "g"
+    },
+    "FIBLMW": {
+      "name": "Fibre, low molecular weight",
+      "unit": "g"
+    },
+    "FIBHMW": {
+      "name": "Fibre, high molecular weight",
+      "unit": "g"
+    },
+    "FIBINS": {
+      "name": "Fibre, water-insoluble",
+      "unit": "g"
+    },
+    "FIBSOL": {
+      "name": "Fibre, water-soluble",
+      "unit": "g"
+    },
+    "FIBHMWS": {
+      "name": "Fibre, high molecular weight, water-soluble",
+      "unit": "g"
+    },
+    "FIBHMWI": {
+      "name": "Fibre, high molecular weight, water-insoluble",
+      "unit": "g"
+    },
+    "FASAT": {
+      "name": "Fatty acids, saturated, total",
+      "unit": "g"
+    },
+    "F4:0": {
+      "name": "Fatty acid C4:0 (butyric acid)",
+      "unit": "g"
+    },
+    "F6:0": {
+      "name": "Fatty acid C6:0 (caproic acid)",
+      "unit": "g"
+    },
+    "F8:0": {
+      "name": "Fatty acid C8:0 (caprylic acid)",
+      "unit": "g"
+    },
+    "F10:0": {
+      "name": "Fatty acid C10:0 (capric acid)",
+      "unit": "g"
+    },
+    "F12:0": {
+      "name": "Fatty acid C12:0 (lauric acid)",
+      "unit": "g"
+    },
+    "F14:0": {
+      "name": "Fatty acid C14:0 (myristic acid)",
+      "unit": "g"
+    },
+    "F15:0": {
+      "name": "Fatty acid C15:0 (pentadecylic acid)",
+      "unit": "g"
+    },
+    "F16:0": {
+      "name": "Fatty acid C16:0 (palmitic acid)",
+      "unit": "g"
+    },
+    "F17:0": {
+      "name": "Fatty acid C17:0 (margaric acid)",
+      "unit": "g"
+    },
+    "F18:0": {
+      "name": "Fatty acid C18:0 (stearic acid)",
+      "unit": "g"
+    },
+    "F20:0": {
+      "name": "Fatty acid C20:0 (arachidic acid)",
+      "unit": "g"
+    },
+    "F22:0": {
+      "name": "Fatty acid C22:0 (behenic acid)",
+      "unit": "g"
+    },
+    "F24:0": {
+      "name": "Fatty acid C24:0 (lignoceric acid)",
+      "unit": "g"
+    },
+    "FAMS": {
+      "name": "Fatty acids, monounsaturated, total",
+      "unit": "g"
+    },
+    "F14:1CN5": {
+      "name": "Fatty acid C14:1 n-5 cis (myristoleic acid)",
+      "unit": "g"
+    },
+    "F16:1CN7": {
+      "name": "Fatty acid C16:1 n-7 cis (palmitoleic acid)",
+      "unit": "g"
+    },
+    "F18:1CN7": {
+      "name": "Fatty acid C18:1 n-7 cis (vaccenic acid)",
+      "unit": "g"
+    },
+    "F18:1CN9": {
+      "name": "Fatty acid C18:1 n-9 cis (oleic acid)",
+      "unit": "g"
+    },
+    "F20:1CN9": {
+      "name": "Fatty acid C20:1 n-9 cis (gondoic acid)",
+      "unit": "g"
+    },
+    "F22:1CN9": {
+      "name": "Fatty acid C22:1 n-9 cis (erucic acid)",
+      "unit": "g"
+    },
+    "FAPU": {
+      "name": "Fatty acids, polyunsaturated, total",
+      "unit": "g"
+    },
+    "FAPUN3": {
+      "name": "Fatty acids, polyunsaturated, n-3 (omega-3), total",
+      "unit": "g"
+    },
+    "F18:3CN3": {
+      "name": "Fatty acid C18:3 n-3 all-cis (alpha-linolenic acid)",
+      "unit": "g"
+    },
+    "F18:4CN3": {
+      "name": "Fatty acid C18:4 n-3 all-cis (stearidonic acid)",
+      "unit": "g"
+    },
+    "F20:5CN3": {
+      "name": "Fatty acid C20:5 n-3 all-cis (eicosapentanoic acid)",
+      "unit": "g"
+    },
+    "F22:5CN3": {
+      "name": "Fatty acid C22:5 n-3 all-cis (docosapentanoic acid)",
+      "unit": "g"
+    },
+    "F22:6CN3": {
+      "name": "Fatty acid C22:6 n-3 all-cis (docosahexanoic acid)",
+      "unit": "g"
+    },
+    "FAPUN6": {
+      "name": "Fatty acids, polyunsaturated, n-6 (omega-6), total",
+      "unit": "g"
+    },
+    "F18:2CN6": {
+      "name": "Fatty acid C18:2 n-6 cis,cis (linoleic acid)",
+      "unit": "g"
+    },
+    "F18:2C9T11": {
+      "name": "Fatty acid C18:2 conjugated, cis 9,trans 11 (conjugated linoleic acid)",
+      "unit": "g"
+    },
+    "F18:3CN6": {
+      "name": "Fatty acid C18:3 n-6 all-cis (gamma-linolenic acid)",
+      "unit": "g"
+    },
+    "F20:2CN6": {
+      "name": "Fatty acid C20:2 n-6 cis,cis (eicosadienoic acid)",
+      "unit": "g"
+    },
+    "F20:3CN6": {
+      "name": "Fatty acid C20:3 n-6 all-cis (dihomo-gamma-linolenic acid)",
+      "unit": "g"
+    },
+    "F20:4CN6": {
+      "name": "Fatty acid C20:4 n-6 all-cis (arachidonic acid)",
+      "unit": "g"
+    },
+    "FAX": {
+      "name": "Fatty acids, others",
+      "unit": "g"
+    },
+    "CHORL": {
+      "name": "Cholesterol",
+      "unit": "mg"
+    },
+    "AAE9": {
+      "name": "Amino acids, essential, total",
+      "unit": "g"
+    },
+    "ALA": {
+      "name": "Alanine",
+      "unit": "g"
+    },
+    "ARG": {
+      "name": "Arginine",
+      "unit": "g"
+    },
+    "ASP": {
+      "name": "Aspartic acid, including asparagine",
+      "unit": "g"
+    },
+    "CYSTE": {
+      "name": "Cysteine",
+      "unit": "g"
+    },
+    "GLU": {
+      "name": "Glutamic acid, including glutamine",
+      "unit": "g"
+    },
+    "GLY": {
+      "name": "Glycine",
+      "unit": "g"
+    },
+    "HIS": {
+      "name": "Histidine",
+      "unit": "g"
+    },
+    "ILE": {
+      "name": "Isoleucine",
+      "unit": "g"
+    },
+    "LEU": {
+      "name": "Leucine",
+      "unit": "g"
+    },
+    "LYS": {
+      "name": "Lysine",
+      "unit": "g"
+    },
+    "MET": {
+      "name": "Methionine",
+      "unit": "g"
+    },
+    "PHE": {
+      "name": "Phenylalanine",
+      "unit": "g"
+    },
+    "PRO": {
+      "name": "Proline",
+      "unit": "g"
+    },
+    "SER": {
+      "name": "Serine",
+      "unit": "g"
+    },
+    "THR": {
+      "name": "Threonine",
+      "unit": "g"
+    },
+    "TRP": {
+      "name": "Tryptophan",
+      "unit": "g"
+    },
+    "TYR": {
+      "name": "Tyrosine",
+      "unit": "g"
+    },
+    "VAL": {
+      "name": "Valine",
+      "unit": "g"
+    },
+    "NT": {
+      "name": "Nitrogen, total",
+      "unit": "g"
+    }
+  }
+}

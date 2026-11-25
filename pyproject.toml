@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-health-toolkit"
+version = "0.1.0"
+description = "A local toolkit for nutrition, Oura exports and searchable health documents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+health-toolkit = "health_toolkit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["health_toolkit*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+health_toolkit = ["data/*.json", "data/*.jsonl.gz", "data/*.md"]

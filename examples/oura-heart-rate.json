@@ -1,0 +1,5 @@
+[
+  {"timestamp":"2000-01-02T08:12:00+00:00","bpm":65,"source":"awake"},
+  {"timestamp":"2000-01-02T08:17:00+00:00","bpm":67,"source":"awake"},
+  {"timestamp":"2000-01-02T08:22:00+00:00","bpm":null,"source":"awake"}
+]

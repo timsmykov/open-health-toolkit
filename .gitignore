@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+*.sqlite
+*.sqlite-*
+*.pdf
+.local/
+private/
+outputs/
